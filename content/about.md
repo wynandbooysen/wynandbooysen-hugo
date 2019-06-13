@@ -16,4 +16,4 @@ I'm a Systems Engineer from Johannesburg, South Africa 🇿🇦.  This site is a
 
 ### Contact
 
-Follow me on Twitter if you like: @wynandbooysen
+Follow me on Twitter if you like: [@wynandbooysen](https://twitter.com/wynandbooysen)
