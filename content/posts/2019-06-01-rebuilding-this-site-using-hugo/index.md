@@ -36,9 +36,13 @@ sudo hugo server -D
 
 So now that we have the basics of generating the site let's look at how to publish the site.  As mentioned earlier Hugo will generate HTML output that can be served via any basic web server.  This will be in the 'public' folder after running <b>hugo</b>, but I'll skip that for now
 
-I'll serve it via a Docker container the same way as I did my Pelican blog as well as my HTML only personal landing page after that.  This time however I'll be making use of a multi-stage Dockerfile, which will automatically run Hugo in one container producing the public folder and making it available to copy over into the final container which contains only NGINX
+I'll serve it via a Docker container the same way as I did my Pelican blog as well as my HTML only personal landing page after that.  This time however I'll be making use of a multi-stage Dockerfile, which will automatically run Hugo in one container producing the public folder and making it available to copy over into the final container which contains only NGINX and the content resulting in a minimal image less than 8MB in size at the time of writing.
+
+Below is the Dockerfile used:
 
 ```Dockerfile
+
+#Part 1
 FROM alpine:3.9 as build
 
 ENV HUGO_VERSION 0.55.6
@@ -60,7 +64,7 @@ WORKDIR /site
 
 RUN /usr/bin/hugo
 
-
+#Part 2
 FROM nginx:alpine
 
 LABEL maintainer Wynand Booysen  <me@wynandbooysen.com>
@@ -77,6 +81,6 @@ Part 1 of the Dockerfile is the build portion, I use an alpine image to install 
 
 Part 2 of the Dockerfile retreives the 'public' folder's content from the build image and copies it into NGINX site folder, this is the image that I'll use to host the site
 
-It's now ready to get served
+It's now ready to get served.
 
-I'll talk about the hosting setup in another post
+I'll talk about the hosting setup in another post.
