@@ -9,7 +9,9 @@
 	<meta name="theme-color" content="{{.}}">
 	<meta name="msapplication-TileColor" content="{{.}}">
 	{{- end }}
-	{{- partial "structured-data.html" . }}
+	{{- template "_internal/schema.html" . }}
+	{{- template "_internal/opengraph.html" . }}
+	{{- template "_internal/twitter_cards.html" . }}
 	{{- partial "favicons.html" }}
 	<title>{{.Title}}</title>
 	{{ range .AlternativeOutputFormats -}}
@@ -32,7 +34,7 @@
 	{{ block "footer" . -}}{{ end }}
 	{{ $script := resources.Get "js/main.js" | minify | fingerprint -}}
 	<script src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }}></script>
-	{{- partial "analytics.html" . }}
+	{{- partial "analytics.html" }}
 	{{- if templates.Exists "partials/extra-foot.html" -}}
 	{{ partial "extra-foot.html" . }}
 	{{- end }}
