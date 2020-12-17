@@ -1,76 +1,72 @@
-baseURL = "https://wynandbooysen.com"
-languageCode = "en-us"
-defaultContentLanguage = "en"
+baseurl = "http://wynandbooysen.com"
 title = "Wynand Booysen"
 theme = "coder"
-# enableGitInfo = true
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
-# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
-rssLimit = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
-enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-googleAnalytics = "UA-70858315-1"
-# disqusShortname = "yourdiscussshortname"
+languagecode = "en"
+defaultcontentlanguage = "en"
 
-[author]
-  name = "Wynand Booysen"
+paginate = 20
 
-[blackfriday]
-  # hrefTargetBlank = true
-  # noreferrerLinks = true
-  # nofollowLinks = true
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-[taxonomies]
-  tag = "tags"
-  # Categories are disabled by default.
+disqusShortname = "yourdiscussshortname"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  author = "Wynand Booysen"
+  info = "Systems Engineer. Tinkerer. Photographer."
+  description = "Wynand Booysen's personal website"
+  keywords = "blog,devops,photography,personal"
+  avatarurl = "static/images/kingpin.jpg"
+  #gravatar = "john.doe@example.com"
 
-  # Metadata mostly used in document's head
-  # description = ""
-  # images = [""]
-  themeColor = "#494f5c"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
 
-  homeSubtitle = "Systems Engineer. Tinkerer. Photographer."
-  footerCopyright = ''
-  # bgImg = ""  # Homepage background-image URL
+  footercontent = "Enter a text here."
+  hideFooter = false
+  hideCredits = false
+  hideCopyright = false
+  since = 2019
 
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = "https://github.com/username/repository/commit/"
+  enableTwemoji = true
 
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
-  justifyContent = false  # Set "text-align: justify" to `.content`.
+  colorsheme = "auto"
+  hidecolorschemetoggle = false
 
-  # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
+  customCSS = ["css/custom.css"]
+  customSCSS = ["scss/custom.scss"]
+  customJS = ["js/custom.js"]
 
-  # Social Icons
-  # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/wynandbooysen"
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
 
-  [[params.social]]
-    name = "linkedin"
-    url = "https://za.linkedin.com/in/wynandbooysen"
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/wynandbooysen/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://za.linkedin.com/in/wynandbooysen/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/wynandbooysen/"
 
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/wynandbooysen"
-
-[menu]
-
-  [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 10
-
-  [[menu.main]]
-    name = "About"
-    url = "about/"
-    weight = 20
+# Menu links
+[[menu.main]]
+  name = "Posts"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
