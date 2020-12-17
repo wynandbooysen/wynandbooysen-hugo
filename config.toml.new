@@ -1,0 +1,72 @@
+baseurl = "http://wynandbooysen.com"
+title = "Wynand Booysen"
+theme = "coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+  author = "Wynand Booysen"
+  info = "Systems Engineer. Tinkerer. Photographer."
+  description = "Wynand Booysen's personal website"
+  keywords = "blog,devops,photography,personal"
+  #avatarurl = "static/images/kingpin.jpg"
+  #gravatar = "john.doe@example.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  footercontent = "Enter a text here."
+  hideFooter = false
+  hideCredits = false
+  hideCopyright = false
+  since = 2019
+
+  enableTwemoji = true
+
+  colorsheme = "auto"
+  hidecolorschemetoggle = false
+
+  customCSS = ["css/custom.css"]
+  customSCSS = ["scss/custom.scss"]
+  customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/wynandbooysen/"
+#[[params.social]]
+ # name = "LinkedIn"
+ # icon = "fa fa-linkedin fa-2x"
+ # weight = 2
+ # url = "https://za.linkedin.com/in/wynandbooysen/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/wynandbooysen/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
