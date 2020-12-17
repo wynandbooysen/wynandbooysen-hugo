@@ -31,7 +31,7 @@ pygmentscodefencesguesssyntax = true
 
   enableTwemoji = true
 
-  colorsheme = "dark"
+  colorscheme = "dark"
   hidecolorschemetoggle = false
 
   #customCSS = ["css/custom.css"]
