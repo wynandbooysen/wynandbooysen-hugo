@@ -4,6 +4,8 @@ theme = "coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
+googleAnalytics = "UA-70858315-1"
+
 paginate = 20
 
 pygmentsstyle = "bw"
@@ -68,3 +70,7 @@ pygmentscodefencesguesssyntax = true
   name = "About"
   weight = 2
   url = "about/"
+#[[menu.main]]
+#  name = "Resume"
+#  weight = 3
+#  url = "resume/"
