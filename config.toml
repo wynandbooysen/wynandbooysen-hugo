@@ -8,7 +8,7 @@ googleAnalytics = "UA-70858315-1"
 
 paginate = 20
 
-pygmentsstyle = "bw"
+pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
