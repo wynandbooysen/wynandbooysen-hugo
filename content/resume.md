@@ -17,12 +17,13 @@ An energetic and imaginative young Software Engineer and Cyber Security Expert w
 Technical Skills
 ------------------
 
-- **Languages & Libraries** :  C, C++, JavaScript, React, Angular, React-Native, HTML5, CSS3, SASS, Node.js, Express.js, MongoDB, PostgreSQL, Mocha, Jest, jQuery, Bootstrap, GraphQL, Apollo, Redux, React-Hooks
+- **Languages & Libraries** :  Go, Python, Java (Android)
 
-- **Platforms & Frameworks** :  REST Framework (API development), Node.js, Express.js
+- **Platforms & Frameworks** :  
 
-- **Deployment & Databases** :  Heroku, MongoDB/Mongoose
-- **Testing & Other** : Webpack, JSON, AJAX, Git, Github, Visual Studio 2017, Mocha
+- **Deployment & Databases** :  
+
+- **Testing & Other** : 
 
 - **Operating Systems** : Microsoft Windows, Linux/Unix, MAC OS
 
@@ -33,29 +34,33 @@ Professional Experience
 ***[Systems Engineer at SuperGroup](www.supergroup.com), Johannesburg, South Africa - February 2015 - Present***
 
 **Team Enterprise Architecture - October 2018 - Present**
-- Test
+- Data Integration Development
 
 **Team Engineering - February 2015 - September 2018**
-- Test
+- WIP
 
 ***[IT Engineer at Product Credit Solutions](), Johannesburg, South Africa - June 2013 - September 2015***
-- Test
+- WIP
 
-***[IT Specialist at Guardrisk](), Johannesburg, South Africa - Dec 2010 - May 2013***
-- Test
+***[IT Specialist at Guardrisk](www.guardrisk.co.za), Johannesburg, South Africa - Dec 2010 - May 2013***
+- WIP
 
+***[Snr IT Administrator at AutoTrader](www.autotrader.co.za), Johannesburg, South Africa - Feb 2010 - Nov 2010***
+- WIP
 
-***[42 Silicon Valley](https://www.42.us.org/), Fremont, CA - Feb 2018 - present***
-###### 42 is an open opportunity to gain skills for today’s digital world in a non-standard educational setting. On a broad scale, our mission is to offer to young adults a better chance at succeeding as we strive to uncover the talents of this generation in the field of programming.
+***[IT Technician at Leboa IT Solutions (1 year contract)](), Northen Cape, South Africa - Nov 2009 - Jan 2010***
+- WIP
 
- **Teaching Assistant: C Development**
-- Grade and advise students on code assignments in C.
-- Assist with questions on how to solve students' code problems and run code reviews.
-- Teach other fellow students how to logically break down and tackle user stories to create D.R.Y., efficient code.
+***[IT Technician at SQL Technology Solutions (6 month contracts)](), Northen Cape, South Africa - Oct 2008 - Nov 2009***
+- WIP
+
+***[Network Administrator at Rockwell Diamonds](www.rockwelldiamonds.com), Barkley Wes, South Africa - Feb 2008 - Oct 2008***
+- WIP
 
 Projects
 ---------
 #### Most recent projects: 
+
 
 ---
 
