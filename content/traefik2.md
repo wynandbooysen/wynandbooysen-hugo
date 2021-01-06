@@ -21,15 +21,15 @@ tags:
  These are some default configurations I use for my Traefik 2 instances.
 
  Configuration contains:
- - Global HTTP redirect - supported from v2.2
- - Secure Headers from dynamic_config.yml for HTTPS entrypoint
- - API/Dashboard exposed via the dynamic_config.yml
- - Let's Encrypt HTTP Challenge certificates
- - Docker and File Provider
- - A+ SSL rating for all sites and the dashboard
+ - [x] Global HTTP redirect - supported from v2.2
+ - [x] Secure Headers from dynamic_config.yml for HTTPS entrypoint
+ - [x] API/Dashboard exposed via the dynamic_config.yml
+ - [x] Let's Encrypt HTTP Challenge certificates
+ - [x] Docker and File Provider
+ - [x] A+ SSL rating for all sites and the dashboard
+ - [ ] Add Tecnativa/docker-socket-proxy 
 
 Secure Headers and TLS options used are from https://ssl-config.mozilla.org so we get A+ SSL rating out-of-the-box
-
 
 ### .env File for Docker compose
 ---
@@ -37,7 +37,7 @@ Secure Headers and TLS options used are from https://ssl-config.mozilla.org so w
 DOCKERDATADIR is for container persistent storage
 DOMAINNAME is for base DOMAIN for services exposed
 
-```
+```toml
 DOCKERDATADIR=/data/containers
 DOMAINNAME=example.org
 ```
@@ -65,7 +65,7 @@ chmod 600 /data/containers/traefik2/acme/acme.json
 
 Location ```/data/docker/docker-compose.yml```
 
-```
+```yaml
 version: "3.8"
 
 networks:
@@ -102,7 +102,7 @@ services:
 
 Location ```/data/containers/traefik2/config/traefik.yml```
 
-```
+```yaml
 
 # Global configuration
 
@@ -174,7 +174,7 @@ Location ```/data/containers/traefik2/config/dynamic_config.yml```
 
 - If there is no site directly on example.org HTTP redirect does not hit the dashboard rule, use subdomain then instead e.g. ``` rule: "Host(`traefik.example.org`)" ```
 
-```
+```yaml
 http:
   routers:
     dashboard:

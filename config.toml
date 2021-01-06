@@ -8,7 +8,7 @@ googleAnalytics = "UA-70858315-1"
 
 paginate = 20
 
-pygmentsstyle = "solarized-dark"
+pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
