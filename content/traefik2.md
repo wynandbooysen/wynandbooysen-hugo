@@ -12,8 +12,6 @@ tags:
 
 ---
 
-  ## Traefik 2 Config
-
 ---
  *Tested against Traefik v.2.3.6*
 
@@ -37,7 +35,7 @@ Secure Headers and TLS options used are from https://ssl-config.mozilla.org so w
 DOCKERDATADIR is for container persistent storage
 DOMAINNAME is for base DOMAIN for services exposed
 
-```toml
+```
 DOCKERDATADIR=/data/containers
 DOMAINNAME=example.org
 ```

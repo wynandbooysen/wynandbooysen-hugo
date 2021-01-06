@@ -11,7 +11,7 @@ Github: [github.com/wynandbooysen](https://www.github.com/wynandbooysen)
 Summary
 --------
 
-An energetic and imaginative young Software Engineer and Cyber Security Expert who is able to work alongside other talented IT/Software engineers professionals in creating web/mobile applications and computer network security to the very highest standards. Self-motivated IT professional with huge knowledge and proficiency in Javascript, HTML, CSS, and mobile responsive web development, as well as strong skills and ability in writing clean and efficient code. Willing and able to learn new technical skills for a specific role.
+
 
 
 Technical Skills
@@ -19,7 +19,7 @@ Technical Skills
 
 - **Languages & Libraries** :  Go, Python, Java (Android)
 
-- **Platforms & Frameworks** :  
+- **Platforms & Frameworks** :  Talend
 
 - **Deployment & Databases** :  
 
@@ -34,7 +34,10 @@ Professional Experience
 ***[Systems Engineer at SuperGroup](www.supergroup.com), Johannesburg, South Africa - February 2015 - Present***
 
 **Team Enterprise Architecture - October 2018 - Present**
-- Data Integration Development
+- Data Integration Development using *Talend*
+- Managing of Docker clusters, GCR, Portainer
+- Monitoring systems using SolarWinds and StatusCake
+- Alerting using OpsGenie
 
 **Team Engineering - February 2015 - September 2018**
 - WIP
